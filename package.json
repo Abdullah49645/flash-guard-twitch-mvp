@@ -1,0 +1,20 @@
+{
+  "name": "flash-guard",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Moderator-controlled viewer media screening for Twitch",
+  "scripts": {
+    "setup": "npm install && npm run setup:model",
+    "start": "node server.mjs",
+    "setup:model": "node scripts/setup-model.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "onnxruntime-node": "^1.31.1"
+  },
+  "allowScripts": {
+    "onnxruntime-node@1.31.1": true
+  }
+}

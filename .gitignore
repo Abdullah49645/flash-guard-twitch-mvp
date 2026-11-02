@@ -1,0 +1,10 @@
+.env
+.env.*
+!.env.example
+data/
+node_modules/
+.venv/
+models/
+outputs/
+work/
+*.log
